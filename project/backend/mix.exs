@@ -24,8 +24,10 @@ defmodule Backend.MixProject do
   # первая цифра мажорная версия, далее минорная и патч
   defp deps do
     [
-      {:uuid, ">= 0.0.0"},
-      {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
+      {:ecto_sql, "~> 3.1"},
+      {:postgrex, ">= 0.0.0"},
+      # {:uuid, ">= 0.0.0"},
+      # {:dialyxir, "~> 0.5", only: [:dev], runtime: false}, # поставил эту зависимость, т.к. была ошибка
       # > >= < <= == !=
       # > 0.3.0 < 0.5.0  или or and
       # https://hexdocs.pm/elixir/Version.html описание работы с версиями эликсира

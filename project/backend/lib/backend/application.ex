@@ -7,6 +7,7 @@ defmodule Backend.Application do
 
   def start(_type, _args) do
     children = [
+      Backend.Repo, # это для того чтобы когда запускалось приложение, была и обёртка
       # Starts a worker by calling: Backend.Worker.start_link(arg)
       # {Backend.Worker, arg}
     ]
