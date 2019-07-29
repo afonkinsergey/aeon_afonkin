@@ -1,6 +1,7 @@
 # Backend
 
-**TODO: Add description**
+**TODO: Мой проект Jotteruser.ex**
+
 
 ## Installation
 
