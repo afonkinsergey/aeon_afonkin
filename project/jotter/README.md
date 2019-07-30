@@ -1,22 +1,21 @@
-# Backend
+# Jotter
 
-**TODO: Мой проект Jotteruser.ex**
-
+**TODO: Add description**
 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `backend` to your list of dependencies in `mix.exs`:
+by adding `jotter` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:backend, "~> 0.1.0"}
+    {:jotter, "~> 0.1.0"}
   ]
 end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/backend](https://hexdocs.pm/backend).
+be found at [https://hexdocs.pm/jotter](https://hexdocs.pm/jotter).
 
